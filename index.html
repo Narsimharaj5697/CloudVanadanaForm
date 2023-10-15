@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>CloudVandana Survey Form</h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_control">
+              <label for="first_name"> First Name </label>
+              <input
+                id="first_name"
+                name="first_name"
+                placeholder="Enter First Name..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Last Name </label>
+              <input
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Last Name..."
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="date"> Date of Birth </label>
+              <input value="" type="date" id="date" name="date" />
+            </div>
+
+            <div class="form_control">
+              <label for="job_role"> Gender </label>
+              <select id="job_role" name="job_role">
+                <option value="">Select Gender</option>
+                <option value="frontend">Male</option>
+                <option value="backend">Female</option>
+                <option value="full_stack">Others</option>
+              </select>
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Profession </label>
+              <input
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Your Profession"
+              />
+            </div>
+            <div class="form_control">
+              <label for="last_name"> Phone Number </label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Enter Phone Number"
+              />
+            </div>
+
+            <div class="form_control">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email..."
+              />
+            </div>
+            <div class="form_control">
+              <label for="job_role"> Country </label>
+              <select id="job_role" name="job_role">
+                <option value="">Select Country</option>
+                <option value="frontend">India</option>
+                <option value="backend">USA</option>
+                <option value="full_stack">Russia</option>
+                <option value="ui_ux">Australia</option>
+              </select>
+            </div>
+            <div class="textarea_control">
+              <label for="address"> Address </label>
+              <textarea
+                id="address"
+                name="address"
+                row="4"
+                cols="50"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_control">
+              <label for="city"> City </label>
+              <input id="city" name="city" placeholder="Enter City Name..." />
+            </div>
+            <div class="form_control">
+              <label for="pincode"> Pincode </label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter Pincode Number"
+              />
+            </div>
+            <div class="textarea_control">
+              <label for="address"
+                >Is This First Time Are You Buying Our Products</label
+              >
+            </div>
+            <div>
+              <label> <input type="checkbox" id="male" /> Yes </label>
+            </div>
+            <div>
+              <label> <input type="checkbox" id="female" /> No </label>
+            </div>
+          </div>
+
+          <div class="button_container">
+            <label class="button_label">
+                <button type="button" id="submitButton">Submit</button>
+            </label>
+        
+            <label class="button_label">
+                <button type="button" id="resetButton">Reset</button>
+            </label>
+        </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
